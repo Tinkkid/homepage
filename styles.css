@@ -16,6 +16,10 @@ body {
   --text-decoration-color: #ff9a00;
 }
 
+li {
+   list-style: none;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 30px;
@@ -193,7 +197,6 @@ body {
 }
 
 .experiences__company-project {
-  margin-left: 15px;
   margin-bottom: 25px;
 }
 
@@ -212,7 +215,6 @@ body {
 
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
-  padding-left: 20px;
 }
 
 .additional-info {
@@ -257,5 +259,19 @@ body {
 }
 
 .additional-info__languages-item {
+  color: var(--secondary-text-color);
+}
+
+.additional-info__softs {
+  margin-bottom: 20px;
+}
+
+.additional-info__softs-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__softs-item {
   color: var(--secondary-text-color);
 }
