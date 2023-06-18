@@ -197,7 +197,6 @@ li {
 }
 
 .experiences__company-project {
-  margin-left: 15px;
   margin-bottom: 25px;
 }
 
@@ -216,7 +215,6 @@ li {
 
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
-  padding-left: 20px;
 }
 
 .additional-info {
@@ -261,5 +259,19 @@ li {
 }
 
 .additional-info__languages-item {
+  color: var(--secondary-text-color);
+}
+
+.additional-info__softs {
+  margin-bottom: 20px;
+}
+
+.additional-info__softs-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__softs-item {
   color: var(--secondary-text-color);
 }
